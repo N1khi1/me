@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html lang = "en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+
+<title>My favourite stuffs | 5HU3HENDU</title>
+<meta name="Description" content="These are the things that I like the most, and has an impact on my life in some way or the other.">
+
+
+<link rel="stylesheet" href="style.css">
+<script src="favs.js"></script>
+  
+</head>
+
+<body>
+<h1>
+Favourites...
+</h1>
+<ul id = "nav">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+/
+</li>
+<li>
+<a href="thoughts.html">Thoughts</a>
+</li>
+<li>
+/
+</li>
+<li>
+<a href="favourites.html">Favourites</a>
+</li>
+</ul>
+<hr>
+
+
+
+
+<h2>Get in touch 🤝</h2>
+<p>
+<b><a href="https://www.instagram.com/nik.k.khil/">Instagram - /nik.k.khil</a></b>
+</p>
+
+
+
+
+
+
+
+</body>
+</html>
