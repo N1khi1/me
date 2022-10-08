@@ -29,9 +29,10 @@ p {
 
 
 .slider {
-  width: 300px;
+  width: 70%;
   text-align: center;
   overflow: hidden;
+  margin: auto;	
 }
 
 .slides {
