@@ -1,0 +1,93 @@
+<!doctype HTML>
+<html lang = "en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+
+<title>My favourite stuffs | 5HU3HENDU</title>
+<meta name="Description" content="These are the things that I like the most, and has an impact on my life in some way or the other.">
+
+
+<link rel="stylesheet" href="style.css">
+<script src="favs.js"></script>
+  
+</head>
+
+<body>
+<h1>
+Favourites...
+</h1>
+<ul id = "nav">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+/
+</li>
+<li>
+<a href="thoughts.html">Thoughts</a>
+</li>
+<li>
+/
+</li>
+<li>
+<a href="favourites.html">Favourites</a>
+</li>
+</ul>
+<hr>﻿<p>
+Some of my favourite things...
+Not the exhaustive list.
+Order agnostic.
+</p>
+<h2>Songs</h2>
+<p>
+<iframe src="https://open.spotify.com/embed/playlist/2N971Fy7f8DyeFNU8ckdWq?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</p>
+<div id="favs"></div>
+
+
+
+<script type="text/javascript">	
+
+
+function random_array(a) {
+
+	var random_a = [];
+
+	while(a.length>0){
+		x = Math.floor(Math.random() * (a.length));
+		random_a.push(a[x]);
+		a.splice(x,1);
+
+	}
+	return random_a;
+}
+
+
+
+
+var txt = "";
+
+var topics = Object.keys(favs);
+
+topics = random_array(topics);
+
+for (var i =0; i< topics.length ; i++) {
+	txt += "<h2>"+topics[i]+"</h2>";
+
+	var content = favs[topics[i]];
+
+	content = random_array(content);
+
+	txt += "<p>"+content.join(", ")+"</p>";
+}
+
+document.getElementById("favs").innerHTML = txt
+
+</script>
+
+
+</body>
+</html>
